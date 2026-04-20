@@ -1,0 +1,227 @@
+```html id="finalfull02"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+
+<style>
+body { font-family: Arial, sans-serif; background:#f4f6f8; margin:0; padding:0; color:#333;}
+.container { max-width:900px; margin:40px auto; background:#fff; padding:30px; border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.1);}
+h1 { text-align:center; color:#2c3e50;}
+h2 { color:#34495e; margin-top:25px;}
+.lang-toggle { text-align:right; margin-bottom:10px;}
+.lang-toggle button { padding:8px 12px; margin-left:5px; border:none; border-radius:5px; cursor:pointer; background:#2c3e50; color:#fff;}
+.lang-toggle button.active { background:#27ae60;}
+.footer { text-align:center; margin-top:30px; font-size:14px; color:#777;}
+</style>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.' + lang).forEach(el => el.style.display = 'block');
+  document.getElementById('btn-en').classList.remove('active');
+  document.getElementById('btn-hi').classList.remove('active');
+  document.getElementById('btn-' + lang).classList.add('active');
+}
+window.onload = function() { switchLang('en'); }
+</script>
+
+</head>
+<body>
+<div class="container">
+
+<div class="lang-toggle">
+<button id="btn-en" onclick="switchLang('en')">English</button>
+<button id="btn-hi" onclick="switchLang('hi')">हिन्दी</button>
+</div>
+
+<!-- ================= ENGLISH ================= -->
+<div class="lang en">
+
+<h1>Privacy Policy</h1>
+<p><strong>Effective Date:</strong> 01 January 2026</p>
+
+<p>Welcome to <strong>[Your App Name]</strong>. This Privacy Policy explains how we collect, use, store, process, and protect your personal data in accordance with GDPR and India's Digital Personal Data Protection Act, 2023.</p>
+
+<h2>1. Data Controller</h2>
+<p>[Your Name / Company Name]</p>
+
+<h2>2. Information We Collect</h2>
+<ul>
+<li>Personal Data: Name, phone number, email</li>
+<li>Authentication Data: OTP via Firebase</li>
+<li>Location Data: GPS, city</li>
+<li>Lead Data: Property details</li>
+<li>Technical Data: Device, IP</li>
+</ul>
+
+<h2>3. Purpose of Processing</h2>
+<ul>
+<li>Provide services</li>
+<li>Lead matching</li>
+<li>Security</li>
+</ul>
+
+<h2>4. Legal Basis</h2>
+<ul>
+<li>Consent</li>
+<li>Contract</li>
+<li>Legitimate interest</li>
+</ul>
+
+<h2>5. Consent Management</h2>
+<p>You can withdraw consent anytime.</p>
+
+<h2>6. Lead Data & Access</h2>
+<ul>
+<li>Data is protected</li>
+<li>Dealers see limited info</li>
+<li>Full data only after permission</li>
+</ul>
+
+<h2>7. Dealer Restrictions</h2>
+<ul>
+<li>No resale</li>
+<li>No spam</li>
+</ul>
+
+<h2>8. Anti-Spam</h2>
+<ul>
+<li>Report abuse</li>
+</ul>
+
+<h2>9. Third-Party Services</h2>
+<ul>
+<li>Firebase</li>
+<li>Cloud hosting</li>
+</ul>
+
+<h2>10. Cross-Border Transfer</h2>
+<p>Data may be stored outside India.</p>
+
+<h2>11. Data Retention</h2>
+<p>Stored as needed.</p>
+
+<h2>12. User Rights</h2>
+<ul>
+<li>Access</li>
+<li>Delete</li>
+</ul>
+
+<h2>13. Security</h2>
+<p>Encryption used.</p>
+
+<h2>14. Children</h2>
+<p>Not for under 18.</p>
+
+<h2>15. Grievance Officer</h2>
+<p>Name: [Officer Name]<br>Email: your@email.com</p>
+
+<h2>16. Changes</h2>
+<p>Policy may change.</p>
+
+<h2>17. Contact</h2>
+<p>Email: your@email.com</p>
+
+</div>
+
+<!-- ================= HINDI ================= -->
+<div class="lang hi" style="display:none;">
+
+<h1>गोपनीयता नीति</h1>
+<p><strong>प्रभावी तिथि:</strong> 01 जनवरी 2026</p>
+
+<p><strong>[Your App Name]</strong> यह नीति बताती है कि हम आपका डेटा कैसे एकत्र, उपयोग और सुरक्षित करते हैं।</p>
+
+<h2>1. डेटा नियंत्रक</h2>
+<p>[आपका नाम / कंपनी]</p>
+
+<h2>2. एकत्रित जानकारी</h2>
+<ul>
+<li>नाम, फोन, ईमेल</li>
+<li>OTP सत्यापन (Firebase)</li>
+<li>लोकेशन डेटा</li>
+<li>प्रॉपर्टी जानकारी</li>
+<li>डिवाइस और IP</li>
+</ul>
+
+<h2>3. डेटा उपयोग का उद्देश्य</h2>
+<ul>
+<li>सेवाएं प्रदान करना</li>
+<li>लीड कनेक्शन</li>
+<li>सुरक्षा</li>
+</ul>
+
+<h2>4. कानूनी आधार</h2>
+<ul>
+<li>सहमति</li>
+<li>सेवा अनुबंध</li>
+<li>वैध हित</li>
+</ul>
+
+<h2>5. सहमति प्रबंधन</h2>
+<p>आप किसी भी समय सहमति वापस ले सकते हैं।</p>
+
+<h2>6. लीड डेटा और एक्सेस</h2>
+<ul>
+<li>डेटा सुरक्षित रहता है</li>
+<li>डीलर को सीमित जानकारी मिलती है</li>
+<li>पूरा डेटा अनुमति के बाद मिलता है</li>
+</ul>
+
+<h2>7. डीलर प्रतिबंध</h2>
+<ul>
+<li>डेटा पुनः बिक्री नहीं</li>
+<li>स्पैम निषिद्ध</li>
+</ul>
+
+<h2>8. एंटी-स्पैम नीति</h2>
+<ul>
+<li>दुरुपयोग की रिपोर्ट कर सकते हैं</li>
+</ul>
+
+<h2>9. थर्ड-पार्टी सेवाएं</h2>
+<ul>
+<li>Firebase</li>
+<li>क्लाउड सर्वर</li>
+</ul>
+
+<h2>10. डेटा ट्रांसफर</h2>
+<p>डेटा भारत के बाहर स्टोर हो सकता है।</p>
+
+<h2>11. डेटा संग्रह अवधि</h2>
+<p>आवश्यकतानुसार रखा जाता है।</p>
+
+<h2>12. उपयोगकर्ता अधिकार</h2>
+<ul>
+<li>डेटा एक्सेस</li>
+<li>डिलीट</li>
+</ul>
+
+<h2>13. सुरक्षा</h2>
+<p>एन्क्रिप्शन और HTTPS उपयोग किया जाता है।</p>
+
+<h2>14. बच्चों की नीति</h2>
+<p>18 वर्ष से कम आयु के लिए नहीं।</p>
+
+<h2>15. शिकायत अधिकारी</h2>
+<p>नाम: [अधिकारी]<br>ईमेल: your@email.com</p>
+
+<h2>16. परिवर्तन</h2>
+<p>नीति अपडेट हो सकती है।</p>
+
+<h2>17. संपर्क</h2>
+<p>ईमेल: your@email.com</p>
+
+</div>
+
+<div class="footer">
+© 2026 [Your App Name]
+</div>
+
+</div>
+</body>
+</html>
+```
